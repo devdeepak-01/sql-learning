@@ -4,10 +4,10 @@
 
 
 
-USE sql_practice;
+USE playground;
 
 CREATE TABLE students (
-    student_id INT PRIMARY KEY,
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50),
     age INT,
     city VARCHAR(50),
