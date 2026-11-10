@@ -1,7 +1,7 @@
 -- Topic: SELECT and FROM
 -- Purpose: Retrieving data from a table
 
-USE sql_practice;
+USE playground;
 
 -- Display all columns
 SELECT * FROM students;
