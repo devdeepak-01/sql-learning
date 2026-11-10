@@ -109,7 +109,7 @@ WHERE name LIKE 'R%a';
 -- NULL CHECKING
 
 -- 1. Display students whose city is NULL
-INSERT  into students (student_id,name,age) values(9,"raydu",87), (10,"Jodha",21);
+INSERT  into students (student_id,name,age) values(9,"Raydu",87), (10,"Jodha",21);
 select * from students;
 
 SELECT * FROM students
