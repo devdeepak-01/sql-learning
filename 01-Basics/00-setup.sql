@@ -4,10 +4,17 @@
 
 
 
+<<<<<<< HEAD
 USE sql_practice;
 
 CREATE TABLE students (
     student_id INT PRIMARY KEY,
+=======
+USE playground;
+
+CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
+>>>>>>> 10fb9dbfc587f849a8dee2a1f4d35d991965b6e8
     name VARCHAR(50),
     age INT,
     city VARCHAR(50),
@@ -23,4 +30,8 @@ VALUES
 (5, 'Arjun', 22, 'Delhi', 78),
 (6, 'Riya', 19, 'Mumbai', 88),
 (7, 'Karan', 21, 'Pune', 55),
+<<<<<<< HEAD
 (8, 'Ananya', 20, 'Kolkata', 95);
+=======
+(8, 'Ananya', 20, 'Kolkata', 95);
+>>>>>>> 10fb9dbfc587f849a8dee2a1f4d35d991965b6e8

@@ -109,7 +109,11 @@ WHERE name LIKE 'R%a';
 -- NULL CHECKING
 
 -- 1. Display students whose city is NULL
+<<<<<<< HEAD
 INSERT  into students (student_id,name,age) values(9,"raydu",87), (10,"Jodha",21);
+=======
+INSERT  into students (student_id,name,age) values(9,"Raydu",87), (10,"Jodha",21);
+>>>>>>> 10fb9dbfc587f849a8dee2a1f4d35d991965b6e8
 select * from students;
 
 SELECT * FROM students
@@ -129,4 +133,8 @@ WHERE city IS NULL OR marks IS NULL;
 
 -- 5. Using MySQL ISNULL() function
 SELECT * FROM students
+<<<<<<< HEAD
 WHERE ISNULL(city);
+=======
+WHERE ISNULL(city);
+>>>>>>> 10fb9dbfc587f849a8dee2a1f4d35d991965b6e8

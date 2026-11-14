@@ -12,7 +12,10 @@ use playground;
  
  -- RENAMING A TABLE :
   -- RENAME TABLE course TO courses;
+<<<<<<< HEAD
   
+=======
+>>>>>>> 10fb9dbfc587f849a8dee2a1f4d35d991965b6e8
   -- THIS GIVES ERROR ABOUT CONSTRAINT CHECKING ONE OF MY LEARNING
  --  ALTER TABLE courses rename column duration TO course_duration;
  
@@ -21,6 +24,7 @@ use playground;
  -- STEP2- RENAME THE COLUMN
  -- ALTER TABLE courses rename column duration to course_duration;
  -- STEP 3 - GIVE THE CHECK CONSTRAINT AGAIN WITH CHANGED COLUMN NAME
+<<<<<<< HEAD
  -- ALTER TABLE courses ADD constraint courses_chk_1 check (course_duration>0);
  
  -- TRUNCATE : clears all row makes the column data deleted
@@ -29,3 +33,9 @@ use playground;
   
 
 --  DROP TABLE courses;
+=======
+ ALTER TABLE courses ADD constraint courses_chk_1 check (course_duration>0);
+ 
+ select * FROM courses;
+ DROP TABLE courses;
+>>>>>>> 10fb9dbfc587f849a8dee2a1f4d35d991965b6e8
