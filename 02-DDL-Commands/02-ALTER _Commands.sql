@@ -23,3 +23,4 @@ use playground;
  ALTER TABLE courses ADD constraint courses_chk_1 check (course_duration>0);
  
  select * FROM courses;
+ DROP TABLE courses;
